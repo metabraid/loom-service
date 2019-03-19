@@ -7,7 +7,7 @@ const resources = [
 ]
 
 app.get('/', function(req, res) {
-  res.send(resources);
+  res.json(resources);
 });
 
 app.post('/', function(req, res) {
