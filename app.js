@@ -7,9 +7,6 @@ const resources = [
 ]
 
 app.get('/', function(req, res) {
-  res.send({
-    "api_name": "Metabraid Loom v-0.0.1"
-  });
   res.send(resources);
 });
 
